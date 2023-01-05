@@ -1,6 +1,7 @@
 package schema
 
 type Product struct {
-	Code  string
-	Price uint
+	ID    uint   `json:"ID"`
+	Code  string `json:"Code"`
+	Price uint   `json:"Price"`
 }
